@@ -1,0 +1,117 @@
+[
+  {
+    "numero_da_pergunta": 1,
+    "pergunta": "Qual é a diferença entre racismo e xenofobia?",
+    "possiveis_respostas": [
+      {
+        "letra": "A",
+        "resposta": "O racismo é o preconceito contra as pessoas com base em sua raça, enquanto a xenofobia é o preconceito contra as pessoas com base em sua nacionalidade ou país de origem."
+      },
+      {
+        "letra": "B",
+        "resposta": "O racismo é apenas contra pessoas de cor, enquanto a xenofobia pode ser contra pessoas de qualquer raça."
+      },
+      {
+        "letra": "C",
+        "resposta": "O racismo é sempre intencional, enquanto a xenofobia pode ser não intencional."
+      },
+      {
+        "letra": "D",
+        "resposta": "O racismo é um problema apenas nos Estados Unidos e em países latino-americanos, enquanto a xenofobia é um problema em todo o mundo."
+      }
+    ],
+    "resposta_certa": "A"
+  },
+  {
+    "numero_da_pergunta": 2,
+    "pergunta": "Quais são alguns dos efeitos prejudiciais do discurso racista e xenofóbico?",
+    "possiveis_respostas": [
+      {
+        "letra": "A",
+        "resposta": "Pode levar à violência e discriminação."
+      },
+      {
+        "letra": "B",
+        "resposta": "Pode criar um clima de medo e intimidação."
+      },
+      {
+        "letra": "C",
+        "resposta": "Inibe pessoas da interatividade social."
+      },
+      {
+        "letra": "D",
+        "resposta": "Todas as alternativas acima."
+      }
+    ],
+    "resposta_certa": "D"
+  },
+  {
+    "numero_da_pergunta": 3,
+    "pergunta": "Qual das seguintes frases NÃO é um exemplo de discurso racista?",
+    "possiveis_respostas": [
+      {
+        "letra": "A",
+        "resposta": "Os negros são mais propensos à criminalidade do que os brancos."
+      },
+      {
+        "letra": "B",
+        "resposta": "Os indígenas não são capazes de se integrar à sociedade moderna."
+      },
+      {
+        "letra": "C",
+        "resposta": "A cultura africana é inferior à cultura ocidental."
+      },
+      {
+        "letra": "D",
+        "resposta": "A imigração ilegal deve ser combatida com medidas mais rigorosas."
+      }
+    ],
+    "resposta_certa": "D"
+  },
+  {
+    "numero_da_pergunta": 4,
+    "pergunta": "Um exemplo de um comportamento xenofóbico é:",
+    "possiveis_respostas": [
+      {
+        "letra": "A",
+        "resposta": "A fala 'Não gosto de cuscuz paulista.'"
+      },
+      {
+        "letra": "B",
+        "resposta": "Dizer que qualquer asiático é japonês."
+      },
+      {
+        "letra": "C",
+        "resposta": "Gostar e adotar tradições de outras culturas."
+      },
+      {
+        "letra": "D",
+        "resposta": "Nenhuma das alternativas acima."
+      }
+    ],
+    "resposta_certa": "B"
+  },
+  {
+    "numero_da_pergunta": 5,
+    "pergunta": "Como os estereótipos negativos e os preconceitos contribuem para o racismo e a xenofobia?",
+    "possiveis_respostas": [
+      {
+        "letra": "A",
+        "resposta": "Eles criam generalizações distorcidas sobre grupos inteiros de pessoas, o que pode levar à discriminação e à violência."
+      },
+      {
+        "letra": "B",
+        "resposta": "Eles reforçam as desigualdades sociais e econômicas existentes, tornando mais difícil para os membros de grupos minoritários terem acesso a oportunidades."
+      },
+      {
+        "letra": "C",
+        "resposta": "Eles diminuem a empatia e a compreensão entre as pessoas de diferentes origens, o que pode gerar conflitos e tensões sociais."
+      },
+      {
+        "letra": "D",
+        "resposta": "Todas as alternativas acima."
+      }
+    ],
+    "resposta_certa": "D"
+  }
+]
