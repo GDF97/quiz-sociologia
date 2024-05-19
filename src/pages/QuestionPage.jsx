@@ -76,7 +76,12 @@ function QuestionPage() {
         </button>
       </div>
       {status != "" && <Modal status={status} resposta_certa={respostaCerta} />}
-      {mostrarResultado && <SummaryModal qntdAcertos={3} qntdQuestoes={5} />}
+      {mostrarResultado && (
+        <SummaryModal
+          qntdAcertos={qntdAcertos}
+          qntdQuestoes={perguntas.length}
+        />
+      )}
     </div>
   );
 }
