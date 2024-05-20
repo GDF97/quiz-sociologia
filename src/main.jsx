@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import QuestionPage from "./pages/QuestionPage.jsx";
+import Relatorio from "./pages/Relatorio.jsx";
 
 const route = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const route = createBrowserRouter([
   {
     path: "/quiz",
     element: <QuestionPage />,
+  },
+  {
+    path: "/relatorio",
+    element: <Relatorio />,
   },
 ]);
 
