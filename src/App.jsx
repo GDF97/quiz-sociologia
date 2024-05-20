@@ -14,7 +14,7 @@ function App() {
   ]);
   return (
     <div className="w-full min-h-screen bg-slate-950 p-8 flex flex-col justify-center items-center gap-12 relative">
-      <h1 className="text-white text-6xl w-[700px] text-center">
+      <h1 className="text-white text-4xl  md:text-6xl md:w-[700px] text-center">
         Perguntas sobre <strong>Racismo/Xenofobia</strong>
       </h1>
       <Link to={"/quiz"}>
@@ -23,7 +23,7 @@ function App() {
         </button>
       </Link>
 
-      <div className="absolute bottom-16 right-16 w-56 h-9 bg-white bg-opacity-10 rounded-lg ">
+      <div className="hidden absolute bottom-16 right-16 w-56 h-9 bg-white bg-opacity-10 rounded-lg lg:flex">
         <div className="relative w-full h-full flex items-center justify-center">
           <div className="absolute bottom-14 w-full h-fit  rounded-lg flex flex-col gap-6">
             {open &&
@@ -41,8 +41,8 @@ function App() {
       </div>
 
       <Link to={"/relatorio"}>
-        <button className="bg-blue-950 text-white absolute bottom-16 left-16 w-56 h-9 rounded-lg hover:bg-blue-900 transition-all ease-in-out">
-          Página Inicial
+        <button className="bg-blue-950 text-white bottom-16 left-16 w-56 h-9 rounded-lg hover:bg-blue-900 transition-all ease-in-out lg:absolute">
+          Relatório
         </button>
       </Link>
     </div>

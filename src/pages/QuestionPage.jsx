@@ -50,15 +50,17 @@ function QuestionPage() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 flex items-center justify-around">
-      <div className="w-[600px] h-[600px]">
+    <div className="w-full min-h-screen bg-slate-950 flex flex-col items-center justify-around 2xl:flex-row p-4">
+      <div className="h-fit 2xl:h-[600px] lg:w-[600px] w-full">
         <p className="text-white opacity-60">
           Questão {count + 1} de {perguntas.length}
         </p>
-        <p className="text-white text-4xl">{perguntas[count].pergunta}</p>
+        <p className="text-white lg:text-4xl text-2xl">
+          {perguntas[count].pergunta}
+        </p>
         <p> {respostaSelecionada}</p>
       </div>
-      <div className="w-[750px] h-[600px] flex flex-col gap-6">
+      <div className="lg:w-[750px] min-h-[600px] flex flex-col gap-6">
         {perguntas[count].possiveis_respostas.map((resposta, index) => (
           <Question
             key={index}

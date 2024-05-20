@@ -4,7 +4,7 @@ function Relatorio() {
   return (
     <div className="w-full min-h-screen relative bg-slate-950 flex flex-col items-center p-6 gap-6">
       <h1 className="text-4xl text-white font-bold">Relátorio</h1>
-      <div className="w-[675px] p-3 text-white text-justify flex flex-col gap-4">
+      <div className="w-full md:w-[675px] p-3 text-white text-justify flex flex-col gap-4">
         <p>Introdução</p>
         <p>
           Este relatório tem como objetivo abordar dois casos emblemáticos de
@@ -51,7 +51,7 @@ function Relatorio() {
         </p>
       </div>
       <Link to={"/"}>
-        <button className="bg-purple-600 text-white absolute bottom-16 left-16 w-56 h-9 rounded-lg hover:bg-purple-700 transition-all ease-in-out">
+        <button className="bg-purple-600 text-white lg:absolute bottom-16 left-16 w-56 h-9 rounded-lg hover:bg-purple-700 transition-all ease-in-out">
           Página Inicial
         </button>
       </Link>
